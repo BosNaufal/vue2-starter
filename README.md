@@ -1,4 +1,5 @@
 # Vue 2 Starter
+## modif by erkajp
 
 Simple starter for [Vue 2](https://vuejs.org) project. Completely built with simple configuration of:
 
