@@ -7,9 +7,8 @@ export default [
   },
 
   { path: '/about',
-    component: function(resolve){
+    component: function (resolve) {
       require(['../components/About/index.vue'], resolve)
     }
-  },
-
+  }
 ]
