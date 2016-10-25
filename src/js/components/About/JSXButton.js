@@ -1,27 +1,26 @@
 
 export default {
 
-  data() {
+  data () {
     return {
       show: false
     }
   },
 
-  methods : {
-    toggleText() {
-      this.show =! this.show
+  methods: {
+    toggleText () {
+      this.show = !this.show
     }
   },
 
-  render(h) {
+  render (h) {
     return (
       <div>
         <div>
           <button on-click={ this.toggleText }>Click Me!</button>
         </div>
         <br />
-        { this.show ?
-          <div>
+        { this.show ? <div>
             <p>Hi! I'm Rendered By Vue Render Function With JSX! :D. You will get:</p>
             <ul>
               <li>Self Closing Tags</li>
@@ -34,10 +33,8 @@ export default {
               <li>You Still Have Native DOM Event!</li>
             </ul>
           </div>
-        : null  }
-      </div>
+        : null }
+        </div>
     )
-
   }
-
-};
+}
